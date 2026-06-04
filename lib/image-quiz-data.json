@@ -1,0 +1,2161 @@
+{
+  "images": [
+    {
+      "id": "artery-1",
+      "topic": "artery",
+      "title": "Muscular Artery — Wall Layers (H&E, 40x)",
+      "imageUrl": "/slides/artery-1.jpg",
+      "description": "Cross-section of a muscular artery. Identify the three tunica layers.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "art1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 52,
+          "answer": "Arterial lumen",
+          "options": [
+            "Tunica media",
+            "Arterial lumen",
+            "Tunica adventitia",
+            "Capillary space"
+          ],
+          "correctIndex": 1,
+          "explanation": "The central open space is the lumen where blood flows. In arteries the lumen is relatively small compared to the thick wall — giving a high wall-to-lumen ratio, unlike veins."
+        },
+        {
+          "id": "art1-B",
+          "marker": "B",
+          "xPercent": 38,
+          "yPercent": 40,
+          "answer": "Tunica media",
+          "options": [
+            "Tunica intima",
+            "Tunica adventitia",
+            "Tunica media",
+            "Internal elastic lamina"
+          ],
+          "correctIndex": 2,
+          "explanation": "The tunica media is the thick middle layer dominated by smooth muscle cells with elongated nuclei arranged concentrically. It is the thickest layer in muscular arteries and regulates blood pressure."
+        },
+        {
+          "id": "art1-C",
+          "marker": "C",
+          "xPercent": 50,
+          "yPercent": 80,
+          "answer": "Tunica adventitia",
+          "options": [
+            "Tunica media",
+            "Tunica intima",
+            "Tunica adventitia",
+            "Elastic lamina"
+          ],
+          "correctIndex": 2,
+          "explanation": "The tunica adventitia is the outermost layer of collagen fibres and fibroblasts. It anchors the vessel to surrounding connective tissue and blends with the perivascular connective tissue."
+        }
+      ]
+    },
+    {
+      "id": "artery-2",
+      "topic": "artery",
+      "title": "Arteriole — Elastic Membrane (H&E)",
+      "imageUrl": "/slides/artery-2.jpg",
+      "description": "High-power view of an arteriole showing the internal elastic lamina.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "art2-A",
+          "marker": "A",
+          "xPercent": 18,
+          "yPercent": 42,
+          "answer": "Internal elastic lamina",
+          "options": [
+            "Basement membrane",
+            "External elastic lamina",
+            "Internal elastic lamina",
+            "Fibrous capsule"
+          ],
+          "correctIndex": 2,
+          "explanation": "The internal elastic lamina is a wavy, eosinophilic (pink) sheet of elastin between the tunica intima and tunica media. It appears as a refractile, undulating line — one of the most reliable features to identify arteries vs veins."
+        },
+        {
+          "id": "art2-B",
+          "marker": "B",
+          "xPercent": 10,
+          "yPercent": 57,
+          "answer": "Smooth muscle nuclei (tunica media)",
+          "options": [
+            "Fibroblast nuclei",
+            "Endothelial nuclei",
+            "Smooth muscle nuclei (tunica media)",
+            "Lymphocyte nuclei"
+          ],
+          "correctIndex": 2,
+          "explanation": "The elongated, cigar-shaped nuclei in the tunica media belong to smooth muscle cells. They are arranged concentrically and contract to regulate vessel diameter and blood pressure."
+        }
+      ]
+    },
+    {
+      "id": "artery-3",
+      "topic": "artery",
+      "title": "Artery — High Power View (H&E)",
+      "imageUrl": "/slides/artery-3.jpg",
+      "description": "Higher magnification of arterial wall showing cellular detail.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "art3-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 20,
+          "answer": "Tunica intima (endothelium)",
+          "options": [
+            "Tunica media",
+            "Tunica adventitia",
+            "Tunica intima (endothelium)",
+            "Elastic lamina"
+          ],
+          "correctIndex": 2,
+          "explanation": "The tunica intima is the innermost layer, lined by a single sheet of endothelial cells resting on a thin subendothelial connective tissue layer. It is in direct contact with the blood."
+        },
+        {
+          "id": "art3-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 55,
+          "answer": "Tunica media (smooth muscle)",
+          "options": [
+            "Tunica intima",
+            "Tunica adventitia",
+            "Tunica media (smooth muscle)",
+            "Lamina propria"
+          ],
+          "correctIndex": 2,
+          "explanation": "The tunica media contains circularly arranged smooth muscle cells plus elastic fibres. Contraction (vasoconstriction) and relaxation (vasodilation) of these cells regulate blood flow and pressure."
+        },
+        {
+          "id": "art3-C",
+          "marker": "C",
+          "xPercent": 50,
+          "yPercent": 82,
+          "answer": "Tunica adventitia (collagen)",
+          "options": [
+            "Tunica media",
+            "Tunica intima",
+            "Periosteum",
+            "Tunica adventitia (collagen)"
+          ],
+          "correctIndex": 3,
+          "explanation": "The outermost tunica adventitia is composed of loose collagen and elastin fibres with fibroblasts. It provides structural support and contains the vasa vasorum — small vessels that supply the vessel wall itself."
+        }
+      ]
+    },
+    {
+      "id": "vein-1",
+      "topic": "vein",
+      "title": "Medium Vein with Valve — Cross-section (H&E)",
+      "imageUrl": "/slides/vein-1.jpg",
+      "description": "Cross-section of a human medium vein showing thin wall and a valve fold.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "vein1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 45,
+          "answer": "Venous lumen",
+          "options": [
+            "Bile duct lumen",
+            "Lymphatic lumen",
+            "Venous lumen",
+            "Arterial lumen"
+          ],
+          "correctIndex": 2,
+          "explanation": "The venous lumen is wide relative to the vessel wall. Veins have a much larger lumen-to-wall ratio than arteries because they carry blood at low pressure and act as capacitance vessels."
+        },
+        {
+          "id": "vein1-B",
+          "marker": "B",
+          "xPercent": 30,
+          "yPercent": 30,
+          "answer": "Thin tunica media (vein)",
+          "options": [
+            "Thick tunica media (artery)",
+            "Thin tunica media (vein)",
+            "Internal elastic lamina",
+            "Tunica adventitia only"
+          ],
+          "correctIndex": 1,
+          "explanation": "Veins have a thin, poorly defined tunica media with far fewer smooth muscle cells than arteries. This is why veins appear floppy and irregular in cross-section — they cannot maintain a circular lumen without blood."
+        },
+        {
+          "id": "vein1-C",
+          "marker": "C",
+          "xPercent": 60,
+          "yPercent": 22,
+          "answer": "Venous valve fold",
+          "options": [
+            "Goblet cell",
+            "Venous valve fold",
+            "Internal elastic lamina",
+            "Chordae tendineae"
+          ],
+          "correctIndex": 1,
+          "explanation": "Venous valves are pocket-like folds of the tunica intima projecting into the lumen. They have a core of connective tissue lined on both sides by endothelium. They prevent backflow of blood and are absent in arteries."
+        }
+      ]
+    },
+    {
+      "id": "trachea-1",
+      "topic": "trachea",
+      "title": "Trachea — Hyaline Cartilage C-Ring (H&E, 10x)",
+      "imageUrl": "/slides/trachea-1.jpg",
+      "description": "Cross-section of the tracheal wall showing the C-shaped hyaline cartilage ring and its surrounding connective tissue layers.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "trach1-A",
+          "marker": "A",
+          "xPercent": 65,
+          "yPercent": 22,
+          "answer": "Perichondrium",
+          "options": [
+            "Perichondrium",
+            "Hyaline cartilage matrix",
+            "Chondrocyte in lacuna",
+            "Fibrocartilage"
+          ],
+          "correctIndex": 0,
+          "explanation": "The perichondrium is the dense fibrous connective tissue sheath surrounding the hyaline cartilage. Its outer layer contains collagen fibres and fibroblasts; its inner chondrogenic layer contains chondroblasts. The tracheal C-ring is covered by perichondrium on both surfaces."
+        },
+        {
+          "id": "trach1-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 55,
+          "answer": "Hyaline cartilage matrix",
+          "options": [
+            "Perichondrium",
+            "Fibrocartilage",
+            "Hyaline cartilage matrix",
+            "Elastic cartilage"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hyaline cartilage matrix appears pale basophilic (blue-purple) in H&E due to type II collagen and sulphated proteoglycans (chondroitin sulphate). It is avascular and aneural. In the trachea, hyaline cartilage forms 16–20 incomplete C-shaped rings that keep the airway patent."
+        },
+        {
+          "id": "trach1-C",
+          "marker": "C",
+          "xPercent": 38,
+          "yPercent": 62,
+          "answer": "Chondrocyte in lacuna",
+          "options": [
+            "Osteocyte",
+            "Fibroblast",
+            "Chondrocyte in lacuna",
+            "Mast cell"
+          ],
+          "correctIndex": 2,
+          "explanation": "Chondrocytes are the sole resident cells of cartilage. They sit in spaces called lacunae within the matrix. Near the perichondrium, young chondroblasts are flattened; deeper chondrocytes are rounded and may occur in isogenous groups (2–4 cells per lacuna), having arisen by mitosis from one parent cell."
+        }
+      ]
+    },
+    {
+      "id": "trachea-3",
+      "topic": "trachea",
+      "title": "Trachea — Pseudostratified Epithelium Close-up (H&E)",
+      "imageUrl": "/slides/trachea-3.png",
+      "description": "Close-up of the pseudostratified ciliated columnar epithelium lining the trachea at 50x magnification.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "trach3-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 8,
+          "answer": "Pseudostratified appearance (nuclei at different heights)",
+          "options": [
+            "True stratified epithelium",
+            "Simple columnar epithelium",
+            "Pseudostratified appearance (nuclei at different heights)",
+            "Transitional epithelium"
+          ],
+          "correctIndex": 2,
+          "explanation": "The epithelium is pseudostratified: nuclei appear at multiple levels giving a layered look, but every cell actually touches the basement membrane. This distinguishes it from true stratified epithelium."
+        },
+        {
+          "id": "trach3-B",
+          "marker": "B",
+          "xPercent": 55,
+          "yPercent": 16,
+          "answer": "Basement membrane",
+          "options": [
+            "Muscularis mucosae",
+            "Internal elastic lamina",
+            "Basement membrane",
+            "Lamina propria"
+          ],
+          "correctIndex": 2,
+          "explanation": "The prominent, eosinophilic basement membrane underlies all the epithelial cells. It is thicker and more conspicuous in the trachea than in most other epithelial surfaces and serves as the anchor for all cells — including basal cells."
+        }
+      ]
+    },
+    {
+      "id": "oesophagus-1",
+      "topic": "oesophagus",
+      "title": "Oesophagus — Wall Layers (H&E)",
+      "imageUrl": "/slides/oesophagus-1.jpg",
+      "description": "Cross-section of oesophageal wall showing stratified squamous epithelium and supporting layers.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "oes1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 12,
+          "answer": "Non-keratinised stratified squamous epithelium",
+          "options": [
+            "Pseudostratified ciliated columnar epithelium",
+            "Non-keratinised stratified squamous epithelium",
+            "Simple columnar epithelium",
+            "Transitional epithelium"
+          ],
+          "correctIndex": 1,
+          "explanation": "The oesophagus is lined by non-keratinised stratified squamous epithelium — multiple layers of cells with flat cells at the surface. This protects against abrasion from food. The absence of keratinisation keeps it moist."
+        },
+        {
+          "id": "oes1-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 42,
+          "answer": "Muscularis mucosae",
+          "options": [
+            "Muscularis externa",
+            "Serosa",
+            "Muscularis mucosae",
+            "Submucosa"
+          ],
+          "correctIndex": 2,
+          "explanation": "The muscularis mucosae is a thin layer of smooth muscle at the base of the mucosa. In the oesophagus it is a continuous, well-developed layer — unlike the stomach where it is sometimes discontinuous."
+        },
+        {
+          "id": "oes1-C",
+          "marker": "C",
+          "xPercent": 50,
+          "yPercent": 72,
+          "answer": "Muscularis externa",
+          "options": [
+            "Muscularis mucosae",
+            "Submucosa",
+            "Muscularis externa",
+            "Adventitia"
+          ],
+          "correctIndex": 2,
+          "explanation": "The muscularis externa propels food by peristalsis. Upper third = skeletal muscle; middle third = mixed; lower third = smooth muscle. This transition from skeletal to smooth muscle is unique to the oesophagus."
+        }
+      ]
+    },
+    {
+      "id": "thyroid-2",
+      "topic": "thyroid-gland",
+      "title": "Thyroid — Scalloped Colloid (Active Gland, H&E 100x)",
+      "imageUrl": "/slides/thyroid-2.jpg",
+      "description": "Active thyroid gland at 100x showing characteristic scalloping at the colloid margin — a sign of active resorption.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "thy2-A",
+          "marker": "A",
+          "xPercent": 28,
+          "yPercent": 50,
+          "answer": "Scalloped colloid (resorption lacunae)",
+          "options": [
+            "Inactive colloid (smooth edge)",
+            "Scalloped colloid (resorption lacunae)",
+            "Mucus pool",
+            "Necrotic centre"
+          ],
+          "correctIndex": 1,
+          "explanation": "The scalloped/irregular edge of the colloid indicates active thyroid hormone resorption. Follicular cells form pseudopodia that engulf colloid droplets by endocytosis — the irregular border is called a resorption lacuna."
+        },
+        {
+          "id": "thy2-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 18,
+          "answer": "Tall columnar follicular cells (active state)",
+          "options": [
+            "Flat squamous follicular cells (inactive)",
+            "Tall columnar follicular cells (active state)",
+            "Basal cells",
+            "Goblet cells"
+          ],
+          "correctIndex": 1,
+          "explanation": "When the thyroid is active, follicular cells become tall columnar. When inactive/suppressed, they flatten to squamous. The height of these cells directly reflects TSH stimulation and hormone synthesis rate."
+        },
+        {
+          "id": "thy2-C",
+          "marker": "C",
+          "xPercent": 78,
+          "yPercent": 55,
+          "answer": "Interfollicular connective tissue",
+          "options": [
+            "Colloid",
+            "Interfollicular connective tissue",
+            "Capsule",
+            "Adipose tissue"
+          ],
+          "correctIndex": 1,
+          "explanation": "The thin connective tissue stroma between follicles carries the rich capillary network that delivers TSH and iodide to follicular cells and carries away secreted T3/T4. It also contains parafollicular (C) cells."
+        }
+      ]
+    },
+    {
+      "id": "thyroid-3",
+      "topic": "thyroid-gland",
+      "title": "Thyroid — Parafollicular (C) Cells (H&E 40x)",
+      "imageUrl": "/slides/thyroid-3.jpg",
+      "description": "Thyroid section at 40x highlighting parafollicular (C) cells at the periphery of follicles.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "thy3-A",
+          "marker": "A",
+          "xPercent": 30,
+          "yPercent": 35,
+          "answer": "Parafollicular (C) cells — calcitonin secreting",
+          "options": [
+            "Follicular cells",
+            "Parafollicular (C) cells — calcitonin secreting",
+            "Mast cells",
+            "Plasma cells"
+          ],
+          "correctIndex": 1,
+          "explanation": "C cells are larger and paler than follicular cells, with a clear cytoplasm. They sit at the periphery of follicles or between them, never touching the colloid. They secrete calcitonin in response to high blood calcium."
+        },
+        {
+          "id": "thy3-B",
+          "marker": "B",
+          "xPercent": 60,
+          "yPercent": 50,
+          "answer": "Thyroid follicle with colloid",
+          "options": [
+            "Parathyroid gland follicle",
+            "Thyroid follicle with colloid",
+            "Lymphoid follicle",
+            "Bile duct"
+          ],
+          "correctIndex": 1,
+          "explanation": "Each thyroid follicle is a spherical structure lined by follicular epithelium enclosing a colloidal centre. The follicle is the structural and functional unit of the thyroid gland."
+        }
+      ]
+    },
+    {
+      "id": "liver-1",
+      "topic": "liver",
+      "title": "Liver — Central Vein and Hepatocyte Cords (H&E)",
+      "imageUrl": "/slides/liver-1.jpg",
+      "description": "Liver section showing the central vein of the hepatic lobule with radiating hepatocyte cords.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "liv1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 45,
+          "answer": "Central vein (terminal hepatic venule)",
+          "options": [
+            "Portal vein branch",
+            "Hepatic artery branch",
+            "Central vein (terminal hepatic venule)",
+            "Bile duct"
+          ],
+          "correctIndex": 2,
+          "explanation": "The central vein sits at the centre of the classical hepatic lobule. Blood flows from the portal triads at the periphery inward through sinusoids to drain into the central vein, then to the hepatic veins and IVC."
+        },
+        {
+          "id": "liv1-B",
+          "marker": "B",
+          "xPercent": 18,
+          "yPercent": 45,
+          "answer": "Hepatocyte cords (plates)",
+          "options": [
+            "Kupffer cells",
+            "Hepatocyte cords (plates)",
+            "Bile canaliculi",
+            "Stellate cells"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hepatocytes are arranged in one- to two-cell thick cords radiating from the central vein. They have abundant eosinophilic cytoplasm, large round nuclei, and prominent nucleoli. They perform metabolic, synthetic, and detoxification functions."
+        },
+        {
+          "id": "liv1-C",
+          "marker": "C",
+          "xPercent": 70,
+          "yPercent": 65,
+          "answer": "Hepatic sinusoid",
+          "options": [
+            "Hepatic arteriole",
+            "Bile duct",
+            "Hepatic sinusoid",
+            "Lymphatic vessel"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sinusoids are wide, fenestrated capillaries running between hepatocyte cords. They carry mixed portal and arterial blood. Kupffer cells (resident macrophages) line the sinusoidal wall and phagocytose bacteria and old erythrocytes."
+        }
+      ]
+    },
+    {
+      "id": "liver-3",
+      "topic": "liver",
+      "title": "Liver — Hepatocytes at High Power (H&E)",
+      "imageUrl": "/slides/liver-3.jpg",
+      "description": "High magnification view of liver parenchyma showing hepatocyte nuclei and cytoplasmic detail.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "liv3-A",
+          "marker": "A",
+          "xPercent": 42,
+          "yPercent": 52,
+          "answer": "Hepatocyte nucleus (with nucleolus)",
+          "options": [
+            "Kupffer cell nucleus",
+            "Hepatocyte nucleus (with nucleolus)",
+            "Endothelial nucleus",
+            "Lymphocyte nucleus"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hepatocyte nuclei are large, round, and pale (euchromatic), often with a prominent nucleolus — reflecting active protein synthesis. Binucleate hepatocytes are common (up to 25%) and are a normal finding."
+        },
+        {
+          "id": "liv3-B",
+          "marker": "B",
+          "xPercent": 60,
+          "yPercent": 42,
+          "answer": "Hepatocyte cytoplasm (eosinophilic, granular)",
+          "options": [
+            "Kupffer cell cytoplasm",
+            "Bile",
+            "Hepatocyte cytoplasm (eosinophilic, granular)",
+            "Glycogen vacuoles"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hepatocyte cytoplasm is abundant and eosinophilic (pink) due to the large number of mitochondria and rough ER. It may appear granular or vacuolated depending on glycogen and lipid content."
+        }
+      ]
+    },
+    {
+      "id": "kidney-1",
+      "topic": "kidney",
+      "title": "Kidney — Renal Corpuscle (H&E)",
+      "imageUrl": "/slides/kidney-1.jpg",
+      "description": "Kidney cortex showing the renal corpuscle with glomerulus and Bowman's capsule.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "kid1-A",
+          "marker": "A",
+          "xPercent": 45,
+          "yPercent": 42,
+          "answer": "Glomerulus (capillary tuft)",
+          "options": [
+            "Bowman's capsule",
+            "Glomerulus (capillary tuft)",
+            "Proximal tubule",
+            "Collecting duct"
+          ],
+          "correctIndex": 1,
+          "explanation": "The glomerulus is a tuft of fenestrated capillaries inside Bowman's capsule. Blood pressure forces plasma through the filtration barrier (endothelium + glomerular basement membrane + podocyte foot processes) into the capsular space."
+        },
+        {
+          "id": "kid1-B",
+          "marker": "B",
+          "xPercent": 55,
+          "yPercent": 20,
+          "answer": "Bowman's capsule — parietal layer (simple squamous)",
+          "options": [
+            "Transitional epithelium",
+            "Simple cuboidal epithelium",
+            "Bowman's capsule — parietal layer (simple squamous)",
+            "Stratified squamous epithelium"
+          ],
+          "correctIndex": 2,
+          "explanation": "The parietal layer of Bowman's capsule is lined by simple squamous epithelium — very flat cells forming the outer wall of the capsule. Ultrafiltrate collects in the capsular space between the glomerulus and this layer."
+        },
+        {
+          "id": "kid1-C",
+          "marker": "C",
+          "xPercent": 75,
+          "yPercent": 60,
+          "answer": "Proximal convoluted tubule (PCT)",
+          "options": [
+            "Collecting duct",
+            "Distal convoluted tubule",
+            "Proximal convoluted tubule (PCT)",
+            "Loop of Henle (thin limb)"
+          ],
+          "correctIndex": 2,
+          "explanation": "The PCT has large eosinophilic cells with an apical brush border (microvilli) creating a fuzzy luminal surface. The lumen appears smaller and the cells larger than in the DCT. PCT reabsorbs ~65% of filtered water, sodium, and glucose."
+        }
+      ]
+    },
+    {
+      "id": "kidney-2",
+      "topic": "kidney",
+      "title": "Kidney Cortex — Tubules Overview (H&E)",
+      "imageUrl": "/slides/kidney-2.jpg",
+      "description": "Kidney cortex showing multiple tubular profiles — PCT, DCT — and glomeruli.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "kid2-A",
+          "marker": "A",
+          "xPercent": 35,
+          "yPercent": 35,
+          "answer": "Renal corpuscle (glomerulus + Bowman's capsule)",
+          "options": [
+            "Hepatic lobule",
+            "Thyroid follicle",
+            "Renal corpuscle (glomerulus + Bowman's capsule)",
+            "Lymphoid nodule"
+          ],
+          "correctIndex": 2,
+          "explanation": "The renal corpuscle appears as a round, densely cellular structure in the cortex. The glomerular capillary tuft is surrounded by the parietal layer of Bowman's capsule (simple squamous epithelium)."
+        },
+        {
+          "id": "kid2-B",
+          "marker": "B",
+          "xPercent": 75,
+          "yPercent": 58,
+          "answer": "Proximal convoluted tubule (PCT) — brush border",
+          "options": [
+            "Distal convoluted tubule (no brush border)",
+            "Collecting duct",
+            "Proximal convoluted tubule (PCT) — brush border",
+            "Loop of Henle thin limb"
+          ],
+          "correctIndex": 2,
+          "explanation": "PCT cells are large, eosinophilic, and have a prominent brush border (microvilli) appearing as a fuzzy pink luminal border. Their lumen is small and irregular. They are the most numerous tubular profile in the cortex."
+        },
+        {
+          "id": "kid2-C",
+          "marker": "C",
+          "xPercent": 75,
+          "yPercent": 35,
+          "answer": "Distal convoluted tubule (DCT) — no brush border",
+          "options": [
+            "PCT — with brush border",
+            "Collecting duct",
+            "Distal convoluted tubule (DCT) — no brush border",
+            "Thin limb of loop"
+          ],
+          "correctIndex": 2,
+          "explanation": "DCT cells are smaller and paler than PCT cells, have NO brush border, and thus have a clearer, wider-appearing lumen. The lack of a fuzzy luminal border is the key feature distinguishing DCT from PCT."
+        }
+      ]
+    },
+    {
+      "id": "kidney-3",
+      "topic": "kidney",
+      "title": "Kidney Medulla — Collecting Ducts (H&E)",
+      "imageUrl": "/slides/kidney-3.jpg",
+      "description": "Kidney medulla showing collecting ducts and thin limbs of the loops of Henle.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "kid3-A",
+          "marker": "A",
+          "xPercent": 45,
+          "yPercent": 40,
+          "answer": "Collecting duct (simple cuboidal, prominent lateral borders)",
+          "options": [
+            "Thin limb of loop of Henle",
+            "Collecting duct (simple cuboidal, prominent lateral borders)",
+            "Ureter",
+            "Vasa recta"
+          ],
+          "correctIndex": 1,
+          "explanation": "Collecting ducts are lined by simple cuboidal epithelium with very prominent lateral cell borders making individual cells clearly visible. This is the key feature distinguishing collecting ducts from other tubules."
+        },
+        {
+          "id": "kid3-B",
+          "marker": "B",
+          "xPercent": 38,
+          "yPercent": 65,
+          "answer": "Thin limb of loop of Henle (simple squamous)",
+          "options": [
+            "Collecting duct",
+            "Thin limb of loop of Henle (simple squamous)",
+            "Capillary",
+            "Thick ascending limb"
+          ],
+          "correctIndex": 1,
+          "explanation": "The thin limb of the loop of Henle is lined by simple squamous epithelium — very flat cells with a wide, clear lumen. They resemble capillaries but can be distinguished by their regular outline and lack of red blood cells."
+        }
+      ]
+    },
+    {
+      "id": "kidney-4",
+      "topic": "kidney",
+      "title": "Kidney — Renal Medulla Detail (H&E)",
+      "imageUrl": "/slides/kidney-4.jpg",
+      "description": "High-magnification view of kidney medulla tubular structures.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "kid4-A",
+          "marker": "A",
+          "xPercent": 40,
+          "yPercent": 35,
+          "answer": "Collecting duct",
+          "options": [
+            "Proximal tubule",
+            "Collecting duct",
+            "Glomerulus",
+            "Ureter"
+          ],
+          "correctIndex": 1,
+          "explanation": "Collecting ducts in the medulla have a simple cuboidal epithelium with very distinct cell boundaries (lateral borders). They run parallel to the loop of Henle in the medullary rays and papillae."
+        },
+        {
+          "id": "kid4-B",
+          "marker": "B",
+          "xPercent": 62,
+          "yPercent": 55,
+          "answer": "Vasa recta (capillary loop)",
+          "options": [
+            "Collecting duct",
+            "Glomerular capillary",
+            "Vasa recta (capillary loop)",
+            "Ureter"
+          ],
+          "correctIndex": 2,
+          "explanation": "The vasa recta are long, straight capillary loops that run alongside the loops of Henle in the medulla. They maintain the osmotic gradient needed for urine concentration via countercurrent exchange."
+        }
+      ]
+    },
+    {
+      "id": "lung-1",
+      "topic": "lung",
+      "title": "Lung — Normal Alveoli (H&E)",
+      "imageUrl": "/slides/lung-1.jpg",
+      "description": "Normal lung parenchyma showing alveolar spaces, septa, and associated structures.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "lung1-A",
+          "marker": "A",
+          "xPercent": 45,
+          "yPercent": 40,
+          "answer": "Alveolar space (air sac)",
+          "options": [
+            "Bronchiolar lumen",
+            "Alveolar space (air sac)",
+            "Pleural cavity",
+            "Lymphatic space"
+          ],
+          "correctIndex": 1,
+          "explanation": "Alveoli are thin-walled air-filled sacs where gas exchange occurs. On H&E they appear as open spaces (usually empty/pink-tinged) bounded by delicate alveolar septa. They form the functional unit of the lung."
+        },
+        {
+          "id": "lung1-B",
+          "marker": "B",
+          "xPercent": 55,
+          "yPercent": 55,
+          "answer": "Alveolar septum (contains capillaries)",
+          "options": [
+            "Bronchial wall",
+            "Pleural membrane",
+            "Alveolar septum (contains capillaries)",
+            "Interlobular septum"
+          ],
+          "correctIndex": 2,
+          "explanation": "Alveolar septa are the thin walls between alveoli. They contain capillaries (where gas exchange occurs), Type I and II pneumocytes, elastic fibres, and alveolar macrophages. The air–blood barrier is only 0.5 μm thick."
+        },
+        {
+          "id": "lung1-C",
+          "marker": "C",
+          "xPercent": 30,
+          "yPercent": 25,
+          "answer": "Type II pneumocyte",
+          "options": [
+            "Type I pneumocyte",
+            "Type II pneumocyte",
+            "Alveolar macrophage",
+            "Club cell"
+          ],
+          "correctIndex": 1,
+          "explanation": "Type II pneumocytes are cuboidal cells protruding at the corners of alveoli. They produce surfactant (stored in lamellar bodies), reducing alveolar surface tension and preventing collapse on expiration."
+        }
+      ]
+    },
+    {
+      "id": "bronchus-1",
+      "topic": "bronchus",
+      "title": "Bronchus — Cross-Section (H&E)",
+      "imageUrl": "/slides/bronchus-1.jpg",
+      "description": "Section of lung showing a bronchus with its characteristic thick wall, alongside the surrounding alveolar parenchyma.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "bron1-A",
+          "marker": "A",
+          "xPercent": 83,
+          "yPercent": 25,
+          "answer": "Bronchus lumen",
+          "options": [
+            "Bronchus lumen",
+            "Alveolar space",
+            "Capillary lumen",
+            "Pleural cavity"
+          ],
+          "correctIndex": 0,
+          "explanation": "The large open central space of the bronchus is its lumen through which air flows. Unlike alveoli, the bronchial lumen is surrounded by a substantial wall containing smooth muscle, hyaline cartilage plates, and pseudostratified ciliated columnar epithelium. The size and thick wall distinguish it from nearby alveoli."
+        },
+        {
+          "id": "bron1-B",
+          "marker": "B",
+          "xPercent": 80,
+          "yPercent": 58,
+          "answer": "Bronchial wall (smooth muscle + cartilage)",
+          "options": [
+            "Bronchial wall (smooth muscle + cartilage)",
+            "Alveolar septum",
+            "Pleura",
+            "Adventitia of a vessel"
+          ],
+          "correctIndex": 0,
+          "explanation": "The bronchial wall is distinguished by: (1) pseudostratified ciliated columnar epithelium lining the lumen, (2) smooth muscle (Reissessen's muscle) below the epithelium, and (3) irregular hyaline cartilage plates in the outer wall. The presence of cartilage is the key histological feature that distinguishes bronchi from bronchioles."
+        },
+        {
+          "id": "bron1-C",
+          "marker": "C",
+          "xPercent": 25,
+          "yPercent": 40,
+          "answer": "Surrounding alveoli",
+          "options": [
+            "Surrounding alveoli",
+            "Bronchiolar lumen",
+            "Lymphatic space",
+            "Pleural cavity"
+          ],
+          "correctIndex": 0,
+          "explanation": "The thin-walled air sacs surrounding the bronchus are alveoli. They appear as open polygonal spaces bounded by delicate alveolar septa containing capillaries and Type I/II pneumocytes. Bronchi are always embedded in alveolar parenchyma within the lung; this contrast between the thick-walled bronchus and thin-walled alveoli is a key identification feature."
+        }
+      ]
+    },
+    {
+      "id": "bronchus-2",
+      "topic": "bronchus",
+      "title": "Respiratory Bronchiole — Transition Zone (H&E)",
+      "imageUrl": "/slides/bronchus-2.jpg",
+      "description": "Section at the transition from tertiary bronchus to respiratory bronchiole, where alveoli begin to bud from the wall.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "bron2-A",
+          "marker": "A",
+          "xPercent": 52,
+          "yPercent": 43,
+          "answer": "Bronchiolar wall (no cartilage)",
+          "options": [
+            "Bronchial wall (with cartilage)",
+            "Bronchiolar wall (no cartilage)",
+            "Alveolar sac",
+            "Tracheal wall"
+          ],
+          "correctIndex": 1,
+          "explanation": "The respiratory bronchiole wall has no cartilage — distinguishing it from bronchi. The wall is thin with smooth muscle and a simple ciliated epithelium that gradually transitions to alveolar epithelium."
+        },
+        {
+          "id": "bron2-B",
+          "marker": "B",
+          "xPercent": 65,
+          "yPercent": 60,
+          "answer": "Alveoli budding from bronchiole wall",
+          "options": [
+            "Glands in submucosa",
+            "Alveoli budding from bronchiole wall",
+            "Peribronchial lymphocytes",
+            "Cartilage nests"
+          ],
+          "correctIndex": 1,
+          "explanation": "The key feature of a RESPIRATORY bronchiole (vs terminal bronchiole) is the presence of alveoli directly budding from its walls. This means some gas exchange can occur at this level, unlike the purely conducting terminal bronchiole."
+        }
+      ]
+    },
+    {
+      "id": "bronchiole-1",
+      "topic": "bronchiole",
+      "title": "Bronchiole — Wall Detail (H&E)",
+      "imageUrl": "/slides/bronchiole-1.jpg",
+      "description": "Normal bronchiole showing absence of cartilage, simple epithelium, and surrounding alveoli.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "bronch1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 45,
+          "answer": "Bronchiolar lumen (NO cartilage present)",
+          "options": [
+            "Bronchial lumen (with cartilage)",
+            "Bronchiolar lumen (NO cartilage present)",
+            "Alveolar duct",
+            "Arteriole lumen"
+          ],
+          "correctIndex": 1,
+          "explanation": "The single most important diagnostic feature of a bronchiole is the ABSENCE of cartilage in its wall. The bronchiolar lumen is open and lined by simple epithelium with smooth muscle maintaining its shape."
+        },
+        {
+          "id": "bronch1-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 22,
+          "answer": "Simple columnar/cuboidal ciliated epithelium with Club cells",
+          "options": [
+            "Pseudostratified ciliated columnar with goblet cells",
+            "Stratified squamous epithelium",
+            "Simple columnar/cuboidal ciliated epithelium with Club cells",
+            "Simple squamous epithelium"
+          ],
+          "correctIndex": 2,
+          "explanation": "Bronchioles are lined by simple columnar to cuboidal ciliated cells with Club cells (formerly Clara cells). Club cells are dome-shaped, non-ciliated secretory cells that produce surfactant-like material and metabolise inhaled toxins."
+        },
+        {
+          "id": "bronch1-C",
+          "marker": "C",
+          "xPercent": 25,
+          "yPercent": 60,
+          "answer": "Adjacent alveoli",
+          "options": [
+            "Bronchial glands",
+            "Adjacent alveoli",
+            "Lymphoid tissue",
+            "Fibrous capsule"
+          ],
+          "correctIndex": 1,
+          "explanation": "Bronchioles are surrounded by alveolar sacs rather than dense connective tissue. The close proximity to alveoli — without intervening cartilage — is consistent with the bronchiole's position in the distal, gas-exchanging portion of the lung."
+        }
+      ]
+    },
+    {
+      "id": "ileum-1",
+      "topic": "ileum",
+      "title": "Ileum — Villi and Crypts (Low Mag H&E)",
+      "imageUrl": "/slides/ileum-1.jpg",
+      "description": "Low magnification view of ileum showing finger-like villi and crypts of Lieberkühn.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "ile1-A",
+          "marker": "A",
+          "xPercent": 30,
+          "yPercent": 20,
+          "answer": "Intestinal villus",
+          "options": [
+            "Crypt of Lieberkühn",
+            "Peyer's patch",
+            "Intestinal villus",
+            "Brunner's gland"
+          ],
+          "correctIndex": 2,
+          "explanation": "Villi are finger-like projections of mucosa covered by simple columnar enterocytes with a brush border and goblet cells. They increase absorptive surface area ~3-fold. Ileal villi are shorter and fewer than duodenal villi."
+        },
+        {
+          "id": "ile1-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 58,
+          "answer": "Crypt of Lieberkühn",
+          "options": [
+            "Intestinal villus",
+            "Crypt of Lieberkühn",
+            "Lymphatic nodule",
+            "Goblet cell"
+          ],
+          "correctIndex": 1,
+          "explanation": "Crypts of Lieberkühn are tubular intestinal glands at the base of villi. They contain stem cells, goblet cells, Paneth cells (with bright eosinophilic granules at the base), and enteroendocrine cells."
+        },
+        {
+          "id": "ile1-C",
+          "marker": "C",
+          "xPercent": 65,
+          "yPercent": 72,
+          "answer": "Submucosa",
+          "options": [
+            "Muscularis externa",
+            "Submucosa",
+            "Serosa",
+            "Muscularis mucosae"
+          ],
+          "correctIndex": 1,
+          "explanation": "The submucosa contains blood vessels, lymphatics, Meissner's (submucosal) nerve plexus, and in the ileum, may contain part of Peyer's patches. It is a connective tissue layer between the mucosa and muscularis externa."
+        }
+      ]
+    },
+    {
+      "id": "ileum-2",
+      "topic": "ileum",
+      "title": "Ileum — Peyer's Patch (H&E)",
+      "imageUrl": "/slides/ileum-2.jpg",
+      "description": "Ileum section showing a large Peyer's patch — the hallmark feature that distinguishes ileum from jejunum.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "ile2-A",
+          "marker": "A",
+          "xPercent": 45,
+          "yPercent": 45,
+          "answer": "Peyer's patch (lymphoid aggregate)",
+          "options": [
+            "Lymph node",
+            "Peyer's patch (lymphoid aggregate)",
+            "Mesenteric fat",
+            "Liver portal triad"
+          ],
+          "correctIndex": 1,
+          "explanation": "Peyer's patches are large aggregates of lymphoid follicles in the mucosa and submucosa of the ileum. They are the HALLMARK feature that distinguishes ileum from duodenum and jejunum. They monitor intestinal content for pathogens."
+        },
+        {
+          "id": "ile2-B",
+          "marker": "B",
+          "xPercent": 30,
+          "yPercent": 52,
+          "answer": "Lymphoid germinal centre",
+          "options": [
+            "Hepatic central vein",
+            "Lymphoid germinal centre",
+            "Glomerulus",
+            "Thyroid follicle"
+          ],
+          "correctIndex": 1,
+          "explanation": "Each lymphoid follicle in a Peyer's patch has a pale germinal centre of activated B lymphocytes (blasts) surrounded by a darker mantle zone of small lymphocytes. Active germinal centres indicate an immune response."
+        },
+        {
+          "id": "ile2-C",
+          "marker": "C",
+          "xPercent": 50,
+          "yPercent": 72,
+          "answer": "Muscularis externa (circular + longitudinal)",
+          "options": [
+            "Serosa",
+            "Submucosa",
+            "Muscularis mucosae",
+            "Muscularis externa (circular + longitudinal)"
+          ],
+          "correctIndex": 3,
+          "explanation": "The muscularis externa has two layers: inner circular and outer longitudinal smooth muscle. Peristaltic contractions are coordinated by Auerbach's (myenteric) plexus between these two layers."
+        }
+      ]
+    },
+    {
+      "id": "ileum-3",
+      "topic": "ileum",
+      "title": "Ileum — Intestinal Villus (High Mag H&E)",
+      "imageUrl": "/slides/ileum-3.jpg",
+      "description": "High magnification view of a single intestinal villus showing enterocytes, goblet cells, and the lamina propria.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "ile3-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 15,
+          "answer": "Brush border (microvilli / striated border)",
+          "options": [
+            "Cilia",
+            "Brush border (microvilli / striated border)",
+            "Stereocilia",
+            "Terminal web"
+          ],
+          "correctIndex": 1,
+          "explanation": "The brush border appears as a fuzzy pink line at the apical surface of enterocytes. It consists of densely packed microvilli (1–1.5 μm tall) that increase absorptive surface area ~20-fold and carry digestive enzymes."
+        },
+        {
+          "id": "ile3-B",
+          "marker": "B",
+          "xPercent": 35,
+          "yPercent": 40,
+          "answer": "Goblet cell (mucus-secreting)",
+          "options": [
+            "Enteroendocrine cell",
+            "Paneth cell",
+            "Goblet cell (mucus-secreting)",
+            "Absorptive enterocyte"
+          ],
+          "correctIndex": 2,
+          "explanation": "Goblet cells are flask-shaped with a narrow base and a distended, pale apical cytoplasm filled with mucous granules. They secrete mucus that lubricates and protects the intestinal surface. Their numbers increase from duodenum to colon."
+        },
+        {
+          "id": "ile3-C",
+          "marker": "C",
+          "xPercent": 55,
+          "yPercent": 60,
+          "answer": "Lamina propria (core of villus)",
+          "options": [
+            "Submucosa",
+            "Muscularis externa",
+            "Lamina propria (core of villus)",
+            "Serosa"
+          ],
+          "correctIndex": 2,
+          "explanation": "The core of each villus is the lamina propria — loose connective tissue containing a central lacteal (lymphatic), blood capillaries, smooth muscle fibres, and immune cells (lymphocytes, plasma cells, eosinophils)."
+        }
+      ]
+    },
+    {
+      "id": "ileum-4",
+      "topic": "ileum",
+      "title": "Ileum — Mucosa Overview (H&E)",
+      "imageUrl": "/slides/ileum-4.jpg",
+      "description": "Normal ileum mucosa showing the typical architecture of villi and crypts with goblet cells.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "ile4-A",
+          "marker": "A",
+          "xPercent": 30,
+          "yPercent": 25,
+          "answer": "Simple columnar epithelium (enterocytes)",
+          "options": [
+            "Stratified squamous epithelium",
+            "Pseudostratified epithelium",
+            "Simple columnar epithelium (enterocytes)",
+            "Transitional epithelium"
+          ],
+          "correctIndex": 2,
+          "explanation": "The intestinal villi are covered by simple columnar epithelium. Enterocytes (absorptive cells) are tall with basally located oval nuclei and an apical brush border. They perform nutrient absorption and digestion."
+        },
+        {
+          "id": "ile4-B",
+          "marker": "B",
+          "xPercent": 55,
+          "yPercent": 55,
+          "answer": "Lamina propria with lymphocytes",
+          "options": [
+            "Submucosa",
+            "Muscularis mucosae",
+            "Lamina propria with lymphocytes",
+            "Serosa"
+          ],
+          "correctIndex": 2,
+          "explanation": "The lamina propria of the ileum is particularly rich in immune cells — plasma cells, lymphocytes, eosinophils — reflecting the ileum's high exposure to luminal antigens. This gives the lamina propria a cellular, basophilic appearance."
+        }
+      ]
+    },
+    {
+      "id": "thick-skin-1",
+      "topic": "thick-skin",
+      "title": "Thick Skin — Five Epidermal Layers (H&E)",
+      "imageUrl": "/slides/thick-skin-1.jpg",
+      "description": "Thick skin (palm/sole) showing all 5 epidermal layers including the unique stratum lucidum.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "thickskin1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 18,
+          "answer": "Stratum corneum (very thick)",
+          "options": [
+            "Stratum granulosum",
+            "Stratum lucidum",
+            "Stratum corneum (very thick)",
+            "Stratum spinosum"
+          ],
+          "correctIndex": 2,
+          "explanation": "The stratum corneum is the outermost layer of dead, anucleate, keratin-filled corneocytes. It is dramatically thicker in thick skin than thin skin, providing mechanical resistance and waterproofing for the palms and soles."
+        },
+        {
+          "id": "thickskin1-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 26,
+          "answer": "Stratum lucidum (ONLY in thick skin)",
+          "options": [
+            "Stratum corneum",
+            "Stratum lucidum (ONLY in thick skin)",
+            "Stratum granulosum",
+            "Stratum spinosum"
+          ],
+          "correctIndex": 1,
+          "explanation": "The stratum lucidum is a pale, translucent homogeneous zone found EXCLUSIVELY in thick skin. It consists of closely packed, dead cells filled with eleidin. Its absence is how you identify thin skin vs thick skin."
+        },
+        {
+          "id": "thickskin1-C",
+          "marker": "C",
+          "xPercent": 50,
+          "yPercent": 48,
+          "answer": "Stratum basale (mitotic stem cells)",
+          "options": [
+            "Stratum spinosum",
+            "Stratum granulosum",
+            "Stratum basale (mitotic stem cells)",
+            "Papillary dermis"
+          ],
+          "correctIndex": 2,
+          "explanation": "The stratum basale is the single deepest layer of columnar/cuboidal cells on the basement membrane. Mitotic figures are common here — stem cells divide continuously to replenish cells lost at the surface. Melanocytes are also in this layer."
+        }
+      ]
+    },
+    {
+      "id": "thin-skin-1",
+      "topic": "thin-skin",
+      "title": "Thin Skin — Epidermis and Dermis (H&E)",
+      "imageUrl": "/slides/thin-skin-1.jpg",
+      "description": "Thin skin section (4 epidermal layers — NO stratum lucidum) with dermis and skin appendages.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "thinskin1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 26,
+          "answer": "Stratum corneum (thin — only 4 layers, no lucidum)",
+          "options": [
+            "Stratum lucidum",
+            "Stratum corneum (thin — only 4 layers, no lucidum)",
+            "Stratum granulosum",
+            "Epidermis (full thickness)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thin skin has only 4 epidermal layers — basale, spinosum, granulosum, corneum. There is NO stratum lucidum. The stratum corneum is thinner than in thick skin. This is the key distinction between thick and thin skin."
+        },
+        {
+          "id": "thinskin1-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 42,
+          "answer": "Dermis (papillary + reticular)",
+          "options": [
+            "Subcutaneous fat",
+            "Muscularis",
+            "Dermis (papillary + reticular)",
+            "Submucosa"
+          ],
+          "correctIndex": 2,
+          "explanation": "The dermis contains the papillary (superficial, loose CT) and reticular (deep, dense irregular CT) layers. In thin skin, hair follicles, sebaceous glands, arrector pili muscles, and sweat glands are embedded in the dermis."
+        },
+        {
+          "id": "thinskin1-C",
+          "marker": "C",
+          "xPercent": 25,
+          "yPercent": 65,
+          "answer": "Eccrine sweat gland",
+          "options": [
+            "Sebaceous gland",
+            "Eccrine sweat gland",
+            "Apocrine gland",
+            "Meissner's corpuscle"
+          ],
+          "correctIndex": 1,
+          "explanation": "Eccrine sweat glands appear as coiled tubular structures in the dermis and subcutis with a narrow duct and coiled secretory portion. They open directly onto the skin surface and are distributed all over the body for thermoregulation."
+        }
+      ]
+    },
+    {
+      "id": "thin-skin-2",
+      "topic": "thin-skin",
+      "title": "Thin Skin — Full Section (H&E)",
+      "imageUrl": "/slides/thin-skin-2.jpg",
+      "description": "Full section of thin skin from competition-winning micrograph, showing epidermis, dermis, and subcutaneous tissue.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "thinskin2-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 10,
+          "answer": "Epidermis (thin — 4 layers)",
+          "options": [
+            "Epidermis with 5 layers (thick skin)",
+            "Epidermis (thin — 4 layers)",
+            "Dermis",
+            "Mucosa"
+          ],
+          "correctIndex": 1,
+          "explanation": "Thin skin epidermis is notably thinner than thick skin. The 4 layers (basale → spinosum → granulosum → corneum) are present but the stratum lucidum is absent. This epidermis covers most of the body surface."
+        },
+        {
+          "id": "thinskin2-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 50,
+          "answer": "Reticular dermis with collagen bundles",
+          "options": [
+            "Papillary dermis",
+            "Reticular dermis with collagen bundles",
+            "Subcutaneous fat",
+            "Muscularis"
+          ],
+          "correctIndex": 1,
+          "explanation": "The reticular dermis consists of interwoven bundles of thick collagen fibres (type I collagen) in a dense irregular arrangement. This organisation gives skin its tensile strength in multiple directions."
+        },
+        {
+          "id": "thinskin2-C",
+          "marker": "C",
+          "xPercent": 50,
+          "yPercent": 82,
+          "answer": "Subcutaneous fat (hypodermis)",
+          "options": [
+            "Reticular dermis",
+            "Muscularis externa",
+            "Subcutaneous fat (hypodermis)",
+            "Serosa"
+          ],
+          "correctIndex": 2,
+          "explanation": "The hypodermis (subcutaneous tissue) consists of lobules of adipocytes separated by fibrous septa. It provides thermal insulation, energy storage, and cushioning. It contains larger blood vessels and nerves than the dermis."
+        }
+      ]
+    },
+    {
+      "id": "hairy-skin-1",
+      "topic": "hairy-skin",
+      "title": "Hairy Skin — Hair Follicle (H&E)",
+      "imageUrl": "/slides/hairy-skin-1.jpg",
+      "description": "Histological section of hairy (thin) skin showing a hair follicle, sebaceous gland, and associated structures.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "hairyskin1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 35,
+          "answer": "Hair follicle (inner + outer root sheath)",
+          "options": [
+            "Eccrine sweat gland",
+            "Sebaceous gland duct",
+            "Hair follicle (inner + outer root sheath)",
+            "Arrector pili muscle"
+          ],
+          "correctIndex": 2,
+          "explanation": "The hair follicle is an invagination of the epidermis enclosing the hair shaft. It has an inner root sheath (surrounds the hair directly) and an outer root sheath (continuous with the epidermis). Its presence immediately identifies hairy skin."
+        },
+        {
+          "id": "hairyskin1-B",
+          "marker": "B",
+          "xPercent": 70,
+          "yPercent": 48,
+          "answer": "Sebaceous gland (pale lobules, holocrine)",
+          "options": [
+            "Eccrine sweat gland",
+            "Apocrine gland",
+            "Sebaceous gland (pale lobules, holocrine)",
+            "Arrector pili muscle"
+          ],
+          "correctIndex": 2,
+          "explanation": "Sebaceous glands are lipid-secreting glands opening into the hair follicle (pilosebaceous unit). They appear as pale, foamy lobules adjacent to the follicle. Entire cells disintegrate to release sebum — this is holocrine secretion."
+        },
+        {
+          "id": "hairyskin1-C",
+          "marker": "C",
+          "xPercent": 33,
+          "yPercent": 22,
+          "answer": "Epidermis (4 layers — no stratum lucidum)",
+          "options": [
+            "Epidermis with 5 layers (thick skin)",
+            "Epidermis (4 layers — no stratum lucidum)",
+            "Dermis only",
+            "Transitional epithelium"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hairy skin epidermis has only 4 layers (no stratum lucidum), the same as thin skin. The combination of 4-layer epidermis + hair follicle + sebaceous gland definitively identifies hairy/thin skin."
+        },
+        {
+          "id": "hairyskin1-D",
+          "marker": "D",
+          "xPercent": 30,
+          "yPercent": 55,
+          "answer": "Arrector pili muscle (smooth muscle)",
+          "options": [
+            "Skeletal muscle",
+            "Cardiac muscle",
+            "Arrector pili muscle (smooth muscle)",
+            "Elastic fibres only"
+          ],
+          "correctIndex": 2,
+          "explanation": "The arrector pili is a small band of smooth muscle connecting the hair follicle to the papillary dermis. Its contraction erects the hair (piloerection / goosebumps) in response to cold or fear, via sympathetic stimulation."
+        }
+      ]
+    },
+    {
+      "id": "urinary-bladder-1",
+      "topic": "urinary-bladder",
+      "title": "Urinary Bladder — Urothelium Layers (H&E)",
+      "imageUrl": "/slides/urinary-bladder-1.png",
+      "description": "Transitional epithelium (urothelium) of the urinary bladder showing its three characteristic cell layers.",
+      "stain": "H&E",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "bladder1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 12,
+          "answer": "Umbrella cells (large dome-shaped surface cells)",
+          "options": [
+            "Basal cells",
+            "Intermediate cells",
+            "Umbrella cells (large dome-shaped surface cells)",
+            "Goblet cells"
+          ],
+          "correctIndex": 2,
+          "explanation": "Umbrella cells (facet cells) are the large dome-shaped cells at the luminal surface. They have a thick asymmetric unit membrane (crusta) impermeable to urine. They flatten dramatically when the bladder is full, reducing from dome to disc shape."
+        },
+        {
+          "id": "bladder1-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 42,
+          "answer": "Intermediate cells (middle layer)",
+          "options": [
+            "Umbrella cells",
+            "Intermediate cells (middle layer)",
+            "Basal cells",
+            "Smooth muscle cells"
+          ],
+          "correctIndex": 1,
+          "explanation": "Intermediate cells are pear-shaped or polyhedral cells forming the middle layer(s) of the urothelium. They can slide relative to each other during bladder distension, accommodating volume changes of up to 10-fold."
+        },
+        {
+          "id": "bladder1-C",
+          "marker": "C",
+          "xPercent": 50,
+          "yPercent": 75,
+          "answer": "Basal cells (stem cells on basement membrane)",
+          "options": [
+            "Umbrella cells",
+            "Detrusor muscle",
+            "Basal cells (stem cells on basement membrane)",
+            "Lamina propria"
+          ],
+          "correctIndex": 2,
+          "explanation": "Basal cells are small columnar/cuboidal cells resting on the basement membrane. They are the stem cell population — they divide to replace damaged or shed umbrella and intermediate cells."
+        }
+      ]
+    },
+    {
+      "id": "loose-ct-1",
+      "topic": "loose-connective-tissue",
+      "title": "Loose Areolar Connective Tissue (H&E)",
+      "imageUrl": "/slides/loose-ct-1.jpg",
+      "description": "Identify the cell types and fibre components in this areolar connective tissue.",
+      "stain": "H&E",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "lct1-A",
+          "marker": "A",
+          "xPercent": 40,
+          "yPercent": 35,
+          "answer": "Collagen fibres",
+          "options": [
+            "Elastic fibres",
+            "Reticular fibres",
+            "Collagen fibres",
+            "Smooth muscle fibres"
+          ],
+          "correctIndex": 2,
+          "explanation": "Collagen fibres are the coarse, pink, wavy bundles in loose connective tissue. They are the most abundant fibre type and resist tensile forces. Produced by fibroblasts."
+        },
+        {
+          "id": "lct1-B",
+          "marker": "B",
+          "xPercent": 60,
+          "yPercent": 50,
+          "answer": "Fibroblast nucleus",
+          "options": [
+            "Macrophage nucleus",
+            "Mast cell nucleus",
+            "Fibroblast nucleus",
+            "Adipocyte nucleus"
+          ],
+          "correctIndex": 2,
+          "explanation": "Fibroblasts are the principal resident cells of connective tissue. They produce all ECM components — collagen, elastic and reticular fibres, and ground substance. Their nuclei are elongated and pale-staining."
+        },
+        {
+          "id": "lct1-C",
+          "marker": "C",
+          "xPercent": 25,
+          "yPercent": 65,
+          "answer": "Elastic fibres",
+          "options": [
+            "Collagen fibres",
+            "Reticular fibres",
+            "Elastic fibres",
+            "Ground substance"
+          ],
+          "correctIndex": 2,
+          "explanation": "Elastic fibres appear as thin, branching, dark-staining threads. They cannot be distinguished from collagen on routine H&E — special stains (Verhoeff's, Weigert's) are needed for definitive identification."
+        }
+      ]
+    },
+    {
+      "id": "dense-ct-1",
+      "topic": "dense-connective-tissue",
+      "title": "Dense Regular Connective Tissue — Tendon (H&E)",
+      "imageUrl": "/slides/dense-ct-1.jpg",
+      "description": "Longitudinal section through tendon — the classic example of dense regular connective tissue.",
+      "stain": "H&E",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "dct1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 40,
+          "answer": "Densely packed parallel collagen fibre bundles",
+          "options": [
+            "Elastic fibre bundles",
+            "Smooth muscle fascicles",
+            "Densely packed parallel collagen fibre bundles",
+            "Reticular fibre meshwork"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dense regular connective tissue (tendon, ligament) contains tightly packed, parallel collagen bundles — all oriented in the same direction to resist tensile forces along one axis. Little ground substance or other cells are present."
+        },
+        {
+          "id": "dct1-B",
+          "marker": "B",
+          "xPercent": 35,
+          "yPercent": 60,
+          "answer": "Tenocyte (fibroblast) nucleus between collagen bundles",
+          "options": [
+            "Osteocyte",
+            "Chondrocyte in lacuna",
+            "Tenocyte (fibroblast) nucleus between collagen bundles",
+            "Adipocyte nucleus"
+          ],
+          "correctIndex": 2,
+          "explanation": "Tenocytes (specialised fibroblasts) sit in rows between collagen bundles. Their flat, dark nuclei are the only visible cellular component of a tendon — the rest is collagen. They maintain the collagen matrix."
+        }
+      ]
+    },
+    {
+      "id": "cartilage-1",
+      "topic": "cartilage",
+      "title": "Hyaline Cartilage — Tracheal Ring (H&E)",
+      "imageUrl": "/slides/cartilage-1.jpg",
+      "description": "Cross-section through hyaline cartilage showing the classic glassy matrix and chondrocytes in lacunae.",
+      "stain": "H&E",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "cart1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 45,
+          "answer": "Chondrocytes in lacunae",
+          "options": [
+            "Osteocytes in canaliculi",
+            "Fibroblasts",
+            "Chondrocytes in lacunae",
+            "Mast cells"
+          ],
+          "correctIndex": 2,
+          "explanation": "Chondrocytes sit in spaces called lacunae within the matrix. In groups (isogenous groups), they result from recent cell division. They produce and maintain the matrix but have limited regenerative capacity."
+        },
+        {
+          "id": "cart1-B",
+          "marker": "B",
+          "xPercent": 30,
+          "yPercent": 30,
+          "answer": "Perichondrium",
+          "options": [
+            "Periosteum",
+            "Perichondrium",
+            "Endosteum",
+            "Epimysium"
+          ],
+          "correctIndex": 1,
+          "explanation": "The perichondrium is the dense connective tissue layer surrounding cartilage. Its inner (chondrogenic) layer contains chondroblasts that add new cartilage by appositional growth. Note: articular cartilage lacks a perichondrium."
+        },
+        {
+          "id": "cart1-C",
+          "marker": "C",
+          "xPercent": 60,
+          "yPercent": 65,
+          "answer": "Glassy (hyaline) matrix",
+          "options": [
+            "Fibrocartilage matrix with visible fibres",
+            "Elastic matrix",
+            "Glassy (hyaline) matrix",
+            "Woven bone matrix"
+          ],
+          "correctIndex": 2,
+          "explanation": "Hyaline cartilage gets its name from its glassy (hyalos = glass) appearance due to the amorphous matrix of type II collagen and proteoglycans. Unlike fibrocartilage, the collagen fibres are not visible on H&E because they are masked by the abundant proteoglycan ground substance."
+        }
+      ]
+    },
+    {
+      "id": "bone-1",
+      "topic": "bone",
+      "title": "Compact Bone — Haversian Systems (Ground Section)",
+      "imageUrl": "/slides/bone-1.jpg",
+      "description": "Cross-section of compact (cortical) bone showing Haversian systems (osteons). Identify the key structural components.",
+      "stain": "Ground section (unstained)",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "bone1-A",
+          "marker": "A",
+          "xPercent": 48,
+          "yPercent": 48,
+          "answer": "Haversian canal (central canal)",
+          "options": [
+            "Volkmann's canal",
+            "Lacuna",
+            "Haversian canal (central canal)",
+            "Canaliculus"
+          ],
+          "correctIndex": 2,
+          "explanation": "The Haversian canal is the central canal of each osteon containing blood vessels, lymphatics, and nerves. Concentric lamellae of bone surround it. Volkmann's canals connect Haversian canals horizontally."
+        },
+        {
+          "id": "bone1-B",
+          "marker": "B",
+          "xPercent": 55,
+          "yPercent": 38,
+          "answer": "Lacunae (osteocyte spaces)",
+          "options": [
+            "Haversian canals",
+            "Canaliculi",
+            "Lacunae (osteocyte spaces)",
+            "Volkmann's canals"
+          ],
+          "correctIndex": 2,
+          "explanation": "Lacunae are the small oval spaces within the bone matrix that house osteocytes (mature bone cells). Fine channels called canaliculi radiate from lacunae, allowing osteocytes to communicate and receive nutrients."
+        },
+        {
+          "id": "bone1-C",
+          "marker": "C",
+          "xPercent": 35,
+          "yPercent": 60,
+          "answer": "Concentric lamellae",
+          "options": [
+            "Interstitial lamellae",
+            "Woven bone trabeculae",
+            "Concentric lamellae",
+            "Periosteal fibres"
+          ],
+          "correctIndex": 2,
+          "explanation": "Concentric lamellae are rings of calcified bone matrix surrounding the Haversian canal — forming a complete osteon. The lamellar pattern reflects how collagen fibres in adjacent lamellae run in alternating directions for strength."
+        }
+      ]
+    },
+    {
+      "id": "blood-1",
+      "topic": "blood-tissue",
+      "title": "Peripheral Blood Smear (Giemsa/Wright Stain)",
+      "imageUrl": "/slides/blood-1.jpg",
+      "description": "Human peripheral blood smear showing the major cell types.",
+      "stain": "Giemsa/Wright",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "blood1-A",
+          "marker": "A",
+          "xPercent": 45,
+          "yPercent": 48,
+          "answer": "Erythrocyte (red blood cell)",
+          "options": [
+            "Platelet",
+            "Neutrophil",
+            "Erythrocyte (red blood cell)",
+            "Lymphocyte"
+          ],
+          "correctIndex": 2,
+          "explanation": "Erythrocytes are the most numerous blood cells — biconcave, anucleate discs that stain pink/salmon. Their shape maximises surface area for gas exchange and allows deformation through narrow capillaries."
+        },
+        {
+          "id": "blood1-B",
+          "marker": "B",
+          "xPercent": 28,
+          "yPercent": 38,
+          "answer": "Neutrophil",
+          "options": [
+            "Monocyte",
+            "Lymphocyte",
+            "Eosinophil",
+            "Neutrophil"
+          ],
+          "correctIndex": 3,
+          "explanation": "Neutrophils are the most common white blood cell. Identified by their multi-lobed (segmented) purple nucleus and pale pink cytoplasm with fine granules. They are the first responders to bacterial infection and acute inflammation."
+        },
+        {
+          "id": "blood1-C",
+          "marker": "C",
+          "xPercent": 62,
+          "yPercent": 60,
+          "answer": "Lymphocyte",
+          "options": [
+            "Lymphocyte",
+            "Monocyte",
+            "Basophil",
+            "Neutrophil"
+          ],
+          "correctIndex": 0,
+          "explanation": "Lymphocytes are small cells with a large round dark nucleus and scant cytoplasm (high N:C ratio). They include T cells (cellular immunity) and B cells (antibody production). Central to adaptive immune responses."
+        }
+      ]
+    },
+    {
+      "id": "nervous-1",
+      "topic": "nervous-tissue",
+      "title": "Spinal Cord — Multipolar Neurons (H&E)",
+      "imageUrl": "/slides/nervous-1.jpg",
+      "description": "Anterior horn of spinal cord showing large multipolar motor neurons. Identify the key neuronal features.",
+      "stain": "H&E",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "nerv1-A",
+          "marker": "A",
+          "xPercent": 48,
+          "yPercent": 45,
+          "answer": "Neuron cell body (soma) with large pale nucleus",
+          "options": [
+            "Astrocyte",
+            "Oligodendrocyte",
+            "Neuron cell body (soma) with large pale nucleus",
+            "Microglia"
+          ],
+          "correctIndex": 2,
+          "explanation": "Motor neurons in the anterior horn have large cell bodies with a prominent pale (euchromatic) nucleus and a large, dark-staining nucleolus. The pale nucleus indicates high transcriptional activity. Basophilic Nissl substance (RER) is visible in the cytoplasm."
+        },
+        {
+          "id": "nerv1-B",
+          "marker": "B",
+          "xPercent": 65,
+          "yPercent": 35,
+          "answer": "Nissl substance (basophilic cytoplasm)",
+          "options": [
+            "Myelin sheath",
+            "Axon hillock",
+            "Nissl substance (basophilic cytoplasm)",
+            "Dendritic spines"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nissl substance is rough endoplasmic reticulum (RER) appearing as basophilic (blue-purple) granules in the cytoplasm of neurons. It is the site of protein synthesis for neurotransmitters. It is absent from the axon hillock and axon."
+        }
+      ]
+    },
+    {
+      "id": "muscle-skeletal-1",
+      "topic": "muscular-tissue",
+      "title": "Skeletal Muscle — Longitudinal Section (H&E)",
+      "imageUrl": "/slides/muscle-skeletal-1.jpg",
+      "description": "Longitudinal section through skeletal (voluntary) muscle fibres. Identify the key features.",
+      "stain": "H&E",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "musc1-A",
+          "marker": "A",
+          "xPercent": 50,
+          "yPercent": 40,
+          "answer": "Cross-striations (alternating A and I bands)",
+          "options": [
+            "Intercalated discs",
+            "Z-discs only",
+            "Cross-striations (alternating A and I bands)",
+            "Smooth muscle dense bodies"
+          ],
+          "correctIndex": 2,
+          "explanation": "Cross-striations are the alternating dark (A-bands, myosin) and light (I-bands, actin) bands visible in skeletal and cardiac muscle. They are absent in smooth muscle. The regular sarcomere pattern gives skeletal muscle its striated appearance."
+        },
+        {
+          "id": "musc1-B",
+          "marker": "B",
+          "xPercent": 30,
+          "yPercent": 62,
+          "answer": "Peripheral nuclei (multiple per fibre)",
+          "options": [
+            "Central single nucleus",
+            "Peripheral nuclei (multiple per fibre)",
+            "Satellite cell nuclei only",
+            "Endothelial nuclei"
+          ],
+          "correctIndex": 1,
+          "explanation": "Skeletal muscle fibres are multinucleated (syncytia) with nuclei positioned at the periphery, just beneath the sarcolemma. This is a key distinguishing feature — cardiac muscle has 1-2 central nuclei; smooth muscle has a single central nucleus."
+        },
+        {
+          "id": "musc1-C",
+          "marker": "C",
+          "xPercent": 70,
+          "yPercent": 55,
+          "answer": "Endomysium (connective tissue between fibres)",
+          "options": [
+            "Perimysium (around fascicles)",
+            "Epimysium (around whole muscle)",
+            "Endomysium (connective tissue between fibres)",
+            "Perichondrium"
+          ],
+          "correctIndex": 2,
+          "explanation": "The endomysium is the thin layer of connective tissue surrounding each individual muscle fibre. The perimysium surrounds bundles (fascicles) of fibres, and the epimysium surrounds the whole muscle."
+        }
+      ]
+    },
+    {
+      "id": "muscle-cardiac-1",
+      "topic": "muscular-tissue",
+      "title": "Cardiac Muscle — Intercalated Discs (H&E)",
+      "imageUrl": "/slides/muscle-cardiac-1.jpg",
+      "description": "Cardiac muscle showing the features that distinguish it from skeletal and smooth muscle.",
+      "stain": "H&E",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "card1-A",
+          "marker": "A",
+          "xPercent": 45,
+          "yPercent": 45,
+          "answer": "Intercalated disc",
+          "options": [
+            "Z-disc",
+            "Perimysium",
+            "Intercalated disc",
+            "Sarcolemma folding"
+          ],
+          "correctIndex": 2,
+          "explanation": "Intercalated discs are unique to cardiac muscle — they are step-like junctions between adjacent cardiomyocytes containing gap junctions (electrical coupling) and desmosomes (mechanical coupling). They stain darkly on H&E."
+        },
+        {
+          "id": "card1-B",
+          "marker": "B",
+          "xPercent": 60,
+          "yPercent": 35,
+          "answer": "Central nucleus (1 per cardiomyocyte)",
+          "options": [
+            "Peripheral multinucleation",
+            "Central nucleus (1 per cardiomyocyte)",
+            "Satellite cell nucleus",
+            "Endothelial nucleus"
+          ],
+          "correctIndex": 1,
+          "explanation": "Cardiomyocytes have a single central nucleus (occasionally 2), distinguishing them from skeletal muscle (multinucleate, peripheral) and smooth muscle (single central). The nucleus is large and pale-staining."
+        }
+      ]
+    },
+    {
+      "id": "athero-1",
+      "topic": "atherosclerosis",
+      "title": "Atherosclerosis — Coronary Artery Plaque (H&E)",
+      "imageUrl": "/slides/athero-1.jpg",
+      "description": "Cross-section of a coronary artery showing an advanced atherosclerotic plaque. Identify the key components.",
+      "stain": "H&E",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "ath1-A",
+          "marker": "A",
+          "xPercent": 42,
+          "yPercent": 35,
+          "answer": "Fibrous cap (smooth muscle cells + collagen)",
+          "options": [
+            "Tunica adventitia",
+            "Fibrous cap (smooth muscle cells + collagen)",
+            "Lipid core",
+            "Internal elastic lamina"
+          ],
+          "correctIndex": 1,
+          "explanation": "The fibrous cap overlies the lipid-rich core of the plaque. It consists of smooth muscle cells, macrophages, and collagen. Thin or eroded fibrous caps are prone to rupture, causing thrombosis and myocardial infarction."
+        },
+        {
+          "id": "ath1-B",
+          "marker": "B",
+          "xPercent": 42,
+          "yPercent": 55,
+          "answer": "Lipid-necrotic core (with foam cells)",
+          "options": [
+            "Tunica media",
+            "Endothelium",
+            "Lipid-necrotic core (with foam cells)",
+            "Inflammatory infiltrate only"
+          ],
+          "correctIndex": 2,
+          "explanation": "The lipid-necrotic core contains cholesterol crystals, dead cells, and lipid-laden macrophages (foam cells). Foam cells form when macrophages engulf oxidised LDL — the earliest event in plaque development (fatty streak)."
+        },
+        {
+          "id": "ath1-C",
+          "marker": "C",
+          "xPercent": 50,
+          "yPercent": 75,
+          "answer": "Tunica media (compressed smooth muscle)",
+          "options": [
+            "Tunica adventitia",
+            "Tunica intima",
+            "Tunica media (compressed smooth muscle)",
+            "Periosteum"
+          ],
+          "correctIndex": 2,
+          "explanation": "The tunica media is compressed and thinned by the overlying plaque. It normally contains concentrically-arranged smooth muscle cells. Medial thinning weakens the vessel wall and can lead to aneurysm formation."
+        }
+      ]
+    },
+    {
+      "id": "melanoma-1",
+      "topic": "malignant-melanoma",
+      "title": "Malignant Melanoma — Vertical Growth Phase (H&E)",
+      "imageUrl": "/slides/melanoma-1.jpg",
+      "description": "Section through a malignant melanoma showing invasion into the dermis.",
+      "stain": "H&E",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "mel1-A",
+          "marker": "A",
+          "xPercent": 40,
+          "yPercent": 30,
+          "answer": "Epidermis with pagetoid spread of melanoma cells",
+          "options": [
+            "Normal stratified squamous epidermis",
+            "Epidermis with pagetoid spread of melanoma cells",
+            "Stratum corneum only",
+            "BCC nests in epidermis"
+          ],
+          "correctIndex": 1,
+          "explanation": "Pagetoid spread = melanoma cells scattered throughout the epidermis, moving upward in single cells or small nests. This distinguishes melanoma from benign melanocytic naevi histologically."
+        },
+        {
+          "id": "mel1-B",
+          "marker": "B",
+          "xPercent": 50,
+          "yPercent": 55,
+          "answer": "Invasive melanoma cells in dermis",
+          "options": [
+            "Inflammatory infiltrate only",
+            "Normal dermal collagen",
+            "Invasive melanoma cells in dermis",
+            "Sebaceous gland"
+          ],
+          "correctIndex": 2,
+          "explanation": "Dermal invasion (vertical growth phase) determines prognosis. Breslow thickness measures the depth of invasion from the granular layer to the deepest tumour cell. Increased depth = worse prognosis. Clark levels (I-V) describe anatomical invasion depth."
+        },
+        {
+          "id": "mel1-C",
+          "marker": "C",
+          "xPercent": 35,
+          "yPercent": 70,
+          "answer": "Tumour-infiltrating lymphocytes (inflammatory response)",
+          "options": [
+            "Plasma cells synthesising antibodies",
+            "Tumour-infiltrating lymphocytes (inflammatory response)",
+            "Mast cells releasing histamine",
+            "Fibroblasts producing scar"
+          ],
+          "correctIndex": 1,
+          "explanation": "Tumour-infiltrating lymphocytes (TILs) in melanoma represent the host immune response. A brisk TIL response is associated with better prognosis. TILs are lymphocytes seen at the base of or within the tumour."
+        }
+      ]
+    },
+    {
+      "id": "bcc-1",
+      "topic": "basal-cell-carcinoma",
+      "title": "Basal Cell Carcinoma — Nodular Type (H&E)",
+      "imageUrl": "/slides/bcc-1.jpg",
+      "description": "Nodular BCC — the most common skin cancer. Identify the characteristic features.",
+      "stain": "H&E",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "bcc1-A",
+          "marker": "A",
+          "xPercent": 45,
+          "yPercent": 45,
+          "answer": "Basaloid tumour nests with peripheral palisading",
+          "options": [
+            "Squamous cell nests with keratin pearls",
+            "Melanoma pagetoid spread",
+            "Basaloid tumour nests with peripheral palisading",
+            "Inflammatory abscess"
+          ],
+          "correctIndex": 2,
+          "explanation": "BCC is characterised by nests of small basaloid cells with peripheral palisading (nuclei arranged like a picket fence at the tumour edge) and retraction artefact (cleft between tumour and stroma). Cells resemble basal cells of the epidermis."
+        },
+        {
+          "id": "bcc1-B",
+          "marker": "B",
+          "xPercent": 30,
+          "yPercent": 65,
+          "answer": "Retraction artefact (cleft between tumour and stroma)",
+          "options": [
+            "Ulceration of epidermis",
+            "Retraction artefact (cleft between tumour and stroma)",
+            "Inflammatory infiltrate",
+            "Fibrous capsule"
+          ],
+          "correctIndex": 1,
+          "explanation": "Retraction artefact (also called peritumoral lacunae) appears as a clear space between the tumour nests and surrounding stroma. It is a classic histological feature of BCC and results from tissue processing artefact."
+        }
+      ]
+    },
+    {
+      "id": "scc-1",
+      "topic": "squamous-cell-carcinoma",
+      "title": "Squamous Cell Carcinoma — with Keratin Pearls (H&E)",
+      "imageUrl": "/slides/scc-1.jpg",
+      "description": "Well-differentiated SCC showing the diagnostic keratin pearl (squamous eddies).",
+      "stain": "H&E",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "scc1-A",
+          "marker": "A",
+          "xPercent": 48,
+          "yPercent": 48,
+          "answer": "Keratin pearl (squamous eddy)",
+          "options": [
+            "Mucin pool",
+            "Tumour necrosis",
+            "Keratin pearl (squamous eddy)",
+            "Calcification"
+          ],
+          "correctIndex": 2,
+          "explanation": "Keratin pearls are concentric whorls of keratinised squamous cells — the hallmark of well-differentiated SCC. Their presence indicates the tumour cells retain squamous differentiation (ability to produce keratin). Poorly differentiated SCC may not have pearls."
+        },
+        {
+          "id": "scc1-B",
+          "marker": "B",
+          "xPercent": 28,
+          "yPercent": 35,
+          "answer": "Invasive tumour nests in dermis",
+          "options": [
+            "Normal epidermis",
+            "Inflammatory abscess",
+            "Invasive tumour nests in dermis",
+            "BCC nests with palisading"
+          ],
+          "correctIndex": 2,
+          "explanation": "SCC arises from epidermal keratinocytes and invades the dermis as irregular nests, cords, or single cells. Keratinocytes show variable keratinisation, intercellular bridges (desmosomes), and atypia. Perineural and vascular invasion indicates aggressive disease."
+        }
+      ]
+    },
+    {
+      "id": "van-gieson-1",
+      "topic": "van-gieson-stain",
+      "title": "Van Gieson Stain — Collagen vs Muscle (Artery Wall)",
+      "imageUrl": "/slides/van-gieson-1.jpg",
+      "description": "Van Gieson stain of an artery wall. Identify the different tissue components by colour.",
+      "stain": "Van Gieson",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "vg1-A",
+          "marker": "A",
+          "xPercent": 30,
+          "yPercent": 35,
+          "answer": "Collagen (red/pink — acid fuchsin component)",
+          "options": [
+            "Smooth muscle (yellow)",
+            "Collagen (red/pink — acid fuchsin component)",
+            "Elastic fibres (black)",
+            "Nuclei (blue/black)"
+          ],
+          "correctIndex": 1,
+          "explanation": "In Van Gieson stain, collagen stains red/deep pink from the acid fuchsin component. The larger pores of collagen fibres allow the larger acid fuchsin molecules to displace the smaller yellow picric acid molecules."
+        },
+        {
+          "id": "vg1-B",
+          "marker": "B",
+          "xPercent": 55,
+          "yPercent": 55,
+          "answer": "Smooth muscle (yellow — picric acid component)",
+          "options": [
+            "Collagen (red)",
+            "Smooth muscle (yellow — picric acid component)",
+            "Elastic fibres",
+            "Ground substance"
+          ],
+          "correctIndex": 1,
+          "explanation": "Smooth muscle cells and cytoplasm stain yellow from picric acid retention. The smaller picric acid molecules are firmly retained in the dense, small-pored muscle tissue and cannot be displaced by acid fuchsin. RBCs and fibrin also stain yellow."
+        }
+      ]
+    },
+    {
+      "id": "masson-1",
+      "topic": "masson-trichrome",
+      "title": "Masson's Trichrome — Fibrosis in Liver (H&E equivalent pattern)",
+      "imageUrl": "/slides/masson-1.jpg",
+      "description": "Masson's trichrome of cirrhotic liver showing extensive fibrosis (collagen deposition).",
+      "stain": "Masson's Trichrome",
+      "createdAt": "2026-06-04T00:00:00.000Z",
+      "labels": [
+        {
+          "id": "mas1-A",
+          "marker": "A",
+          "xPercent": 40,
+          "yPercent": 40,
+          "answer": "Collagen (blue/green — aniline blue component)",
+          "options": [
+            "Muscle fibres (red)",
+            "Nuclei (black)",
+            "Collagen (blue/green — aniline blue component)",
+            "Red blood cells"
+          ],
+          "correctIndex": 2,
+          "explanation": "In Masson's trichrome, collagen stains blue or green (depending on the specific protocol — aniline blue gives blue, light green gives green). This stain is used to quantify fibrosis in liver cirrhosis, kidney disease, and cardiac fibrosis."
+        },
+        {
+          "id": "mas1-B",
+          "marker": "B",
+          "xPercent": 60,
+          "yPercent": 55,
+          "answer": "Hepatocyte cytoplasm and muscle (red — Biebrich scarlet)",
+          "options": [
+            "Collagen (blue)",
+            "Hepatocyte cytoplasm and muscle (red — Biebrich scarlet)",
+            "Nuclei (blue/black)",
+            "Mucin (blue)"
+          ],
+          "correctIndex": 1,
+          "explanation": "Hepatocyte cytoplasm and muscle fibres stain red/pink from Biebrich Scarlet–Acid Fuchsin. Nuclei stain black with Weigert's iron haematoxylin. The contrast between red cytoplasm and blue collagen makes fibrosis immediately obvious."
+        },
+        {
+          "id": "mas1-C",
+          "marker": "C",
+          "xPercent": 35,
+          "yPercent": 65,
+          "answer": "Nuclei (black/dark — Weigert's iron haematoxylin)",
+          "options": [
+            "Collagen",
+            "Red blood cells",
+            "Nuclei (black/dark — Weigert's iron haematoxylin)",
+            "Mucin"
+          ],
+          "correctIndex": 2,
+          "explanation": "Nuclei are stained black by Weigert's iron haematoxylin before the trichrome staining. Iron mordant haematoxylins resist acid decolourisation — essential since subsequent steps use acidic staining solutions."
+        }
+      ]
+    }
+  ]
+}
