@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getDb } from '@/lib/db';
 import { quizAttempts, quizAnswers } from '@/lib/db/schema';
-import { desc, eq } from 'drizzle-orm';
+import { desc } from 'drizzle-orm';
 
 export async function POST(request: NextRequest) {
   try {

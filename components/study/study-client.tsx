@@ -3,7 +3,7 @@
 import { StudyNote } from '@/lib/study-data';
 import Link from 'next/link';
 import { Card, CardContent } from '@/components/ui/card';
-import { Button, buttonVariants } from '@/components/ui/button';
+import { buttonVariants } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { cn } from '@/lib/utils';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';

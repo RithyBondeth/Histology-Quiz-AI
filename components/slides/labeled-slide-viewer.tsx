@@ -27,12 +27,12 @@ export default function LabeledSlideViewer({ image }: Props) {
   return (
     <div className="relative">
       {/* Image with always-visible markers */}
-      <div className="relative w-full">
+      <div className="relative w-full overflow-hidden">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={image.imageUrl}
           alt={image.title}
-          className="w-full object-contain"
+          className="max-h-[72svh] w-full object-contain sm:max-h-none"
           draggable={false}
         />
 
@@ -45,7 +45,7 @@ export default function LabeledSlideViewer({ image }: Props) {
               key={label.id}
               onClick={() => toggle(label)}
               className={cn(
-                'absolute flex h-8 w-8 -translate-x-1/2 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-2 text-xs font-bold text-white shadow-lg transition-all duration-150',
+                'absolute flex h-7 w-7 -translate-x-1/2 -translate-y-1/2 cursor-pointer items-center justify-center rounded-full border-2 text-[11px] font-bold text-white shadow-lg transition-all duration-150 sm:h-8 sm:w-8 sm:text-xs',
                 style.dot,
                 isActive && `ring-4 ${style.ring} scale-125 z-20`,
                 !isActive && 'hover:scale-110 z-10'
@@ -72,7 +72,7 @@ export default function LabeledSlideViewer({ image }: Props) {
           return (
             <div
               className={cn(
-                'absolute z-30 w-56 rounded-xl border-2 p-3 shadow-xl backdrop-blur-sm',
+                'absolute z-30 hidden w-56 rounded-xl border-2 p-3 shadow-xl backdrop-blur-sm sm:block',
                 style.card
               )}
               style={{
@@ -83,7 +83,7 @@ export default function LabeledSlideViewer({ image }: Props) {
             >
               <button
                 onClick={() => setActive(null)}
-                className="absolute right-2 top-2 text-slate-400 hover:text-slate-700 text-xs"
+                className="absolute right-2 top-2 text-xs text-slate-400 hover:text-slate-700"
               >
                 ✕
               </button>
@@ -96,15 +96,47 @@ export default function LabeledSlideViewer({ image }: Props) {
                 >
                   {active.marker}
                 </span>
-                <span className="pr-4 text-sm font-bold text-slate-900">
+                <span className="min-w-0 pr-4 text-sm font-bold leading-snug text-slate-900 break-words">
                   {active.options[active.correctIndex]}
                 </span>
               </div>
-              <p className="text-xs leading-relaxed text-slate-700">{active.explanation}</p>
+              <p className="text-xs leading-relaxed text-slate-700 break-words">{active.explanation}</p>
             </div>
           );
         })()}
       </div>
+
+      {active && (() => {
+        const idx = image.labels.findIndex((l) => l.id === active.id);
+        const style = MARKER_STYLES[idx % MARKER_STYLES.length];
+
+        return (
+          <div className={cn('mt-3 rounded-lg border-2 p-3 shadow-sm sm:hidden', style.card)}>
+            <div className="mb-1 flex items-start justify-between gap-2">
+              <div className="flex min-w-0 items-center gap-2">
+                <span
+                  className={cn(
+                    'flex h-6 w-6 shrink-0 items-center justify-center rounded-full text-xs font-bold text-white',
+                    style.dot
+                  )}
+                >
+                  {active.marker}
+                </span>
+                <span className="min-w-0 text-sm font-bold leading-snug text-slate-900 break-words">
+                  {active.options[active.correctIndex]}
+                </span>
+              </div>
+              <button
+                onClick={() => setActive(null)}
+                className="shrink-0 rounded-md px-2 py-1 text-xs text-slate-500 hover:bg-white/60 hover:text-slate-800"
+              >
+                Close
+              </button>
+            </div>
+            <p className="text-xs leading-relaxed text-slate-700 break-words">{active.explanation}</p>
+          </div>
+        );
+      })()}
     </div>
   );
 }

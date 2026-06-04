@@ -10,16 +10,6 @@ type Step = 'list' | 'add-image' | 'place-labels' | 'edit-label';
 
 const MARKER_LETTERS = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
 
-const BLANK_LABEL = (): Omit<ImageLabel, 'id'> => ({
-  marker: 'A',
-  xPercent: 50,
-  yPercent: 50,
-  answer: '',
-  options: ['', '', '', ''],
-  correctIndex: 0,
-  explanation: '',
-});
-
 export default function AdminClient() {
   const [step, setStep] = useState<Step>('list');
   const [images, setImages] = useState<HistologyImage[]>([]);
@@ -32,7 +22,6 @@ export default function AdminClient() {
     stain: 'H&E',
   });
   const [editingLabel, setEditingLabel] = useState<ImageLabel | null>(null);
-  const [pendingCoord, setPendingCoord] = useState<{ xPercent: number; yPercent: number } | null>(null);
 
   const imgRef = useRef<HTMLImageElement>(null);
 

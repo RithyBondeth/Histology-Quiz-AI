@@ -1,11 +1,11 @@
 'use client';
 
-import { useEffect, useState } from 'react';
+import { useSyncExternalStore } from 'react';
 import { TOPIC_LABELS, TOPICS, Topic } from '@/lib/quiz-data';
 import { scoreColor, scoreBg, cn } from '@/lib/utils';
 import Link from 'next/link';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button, buttonVariants } from '@/components/ui/button';
+import { buttonVariants } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Progress } from '@/components/ui/progress';
 
@@ -28,21 +28,34 @@ function loadLocal(): AttemptRecord[] {
 function clearLocal() {
   try {
     localStorage.removeItem('histoquiz_progress');
+    window.dispatchEvent(new Event('histoquiz_progress_change'));
   } catch {}
 }
 
+function subscribeToLocalProgress(callback: () => void) {
+  window.addEventListener('storage', callback);
+  window.addEventListener('histoquiz_progress_change', callback);
+  return () => {
+    window.removeEventListener('storage', callback);
+    window.removeEventListener('histoquiz_progress_change', callback);
+  };
+}
+
+function getLocalProgressSnapshot() {
+  return JSON.stringify(loadLocal());
+}
+
+function getServerProgressSnapshot() {
+  return '[]';
+}
+
 export default function DashboardClient() {
-  const [attempts, setAttempts] = useState<AttemptRecord[]>([]);
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setAttempts(loadLocal());
-    setMounted(true);
-  }, []);
-
-  if (!mounted) {
-    return <div className="text-muted-foreground text-sm">Loading…</div>;
-  }
+  const attemptsSnapshot = useSyncExternalStore(
+    subscribeToLocalProgress,
+    getLocalProgressSnapshot,
+    getServerProgressSnapshot
+  );
+  const attempts = JSON.parse(attemptsSnapshot) as AttemptRecord[];
 
   if (attempts.length === 0) {
     return (
@@ -164,7 +177,6 @@ export default function DashboardClient() {
             <button
               onClick={() => {
                 clearLocal();
-                setAttempts([]);
               }}
               className="text-xs text-destructive hover:underline"
             >

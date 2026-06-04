@@ -8,7 +8,7 @@ export default async function QuizPage({
 }: {
   searchParams: Promise<{ topic?: string; mode?: string }>;
 }) {
-  const { topic, mode } = await searchParams;
+  const { topic } = await searchParams;
   const validTopic = TOPICS.find((t) => t === topic);
 
   if (validTopic) {

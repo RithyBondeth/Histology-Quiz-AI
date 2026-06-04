@@ -27,9 +27,9 @@ export default async function ImageQuizDetailPage({
   if (!image) notFound();
 
   return (
-    <div className="mx-auto max-w-4xl px-4 py-8">
-      <div className="mb-6">
-        <Link href="/image-quiz" className="text-sm text-indigo-600 hover:underline">
+    <div className="mx-auto max-w-5xl px-3 py-5 sm:px-4 sm:py-8">
+      <div className="mb-4 sm:mb-6">
+        <Link href="/image-quiz" className="inline-flex min-h-10 items-center text-sm text-indigo-600 hover:underline">
           ← All Slides
         </Link>
       </div>

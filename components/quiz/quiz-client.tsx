@@ -1,8 +1,8 @@
 'use client';
 
 import { useState, useCallback } from 'react';
-import { Topic, TOPIC_LABELS, Question, ALL_QUESTIONS, getQuestionsByTopic } from '@/lib/quiz-data';
-import { cn, scoreColor, scoreBg } from '@/lib/utils';
+import { Topic, TOPIC_LABELS, Question, ALL_QUESTIONS } from '@/lib/quiz-data';
+import { cn } from '@/lib/utils';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
@@ -62,7 +62,6 @@ export default function QuizClient({ topic, topicLabel, initialQuestions, mixed 
   const [selected, setSelected] = useState<number | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [answers, setAnswers] = useState<Answer[]>([]);
-  const [questionCount, setQuestionCount] = useState(10);
 
   const startQuiz = useCallback((count: number) => {
     let pool: Question[];

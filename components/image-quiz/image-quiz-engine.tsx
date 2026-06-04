@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { HistologyImage, ImageLabel } from '@/lib/image-quiz-types';
 import ImageViewer from './image-viewer';
-import { cn, scoreBg, scoreColor } from '@/lib/utils';
+import { cn, scoreBg } from '@/lib/utils';
 import Link from 'next/link';
 
 interface Props {
